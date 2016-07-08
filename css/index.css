@@ -1,0 +1,27 @@
+body {
+    background-image: url("D:/git/a100-dev/MyWebsite/pics/bg.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.img-cicle {
+	margin-top : 13%;
+}
+
+.name {
+	font-size: 70px;
+    color: #fff;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.des {
+	font-size: 34px;
+    color: #fff;
+    text-align: center;
+}
+}
