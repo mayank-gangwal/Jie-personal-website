@@ -5,25 +5,20 @@
 }
 
 .title {
-	background-color : white;
-	text-indent : 100px;
+	background-color : yellow;
+	text-indent : 50px;
 	height : 140px;
 	margin-bottom : 10px;
 }
 
 .name {
-	width : 60%;
-	min-width : 400px;
+	min-width : 150px;
 	float : left;
 }
 
 .bg {
-	width : 34.5%;
-	height : 10px;
-	min-width : 200px;
+	min-width : 150px;
 	float : right;
-	margin-left : 0;
-	padding-left : 0;
 }
 
 h1 {
@@ -60,6 +55,7 @@ h3 {
 	width : 68%;
 	min-width : 400px;
 	height : 1000px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .category {
@@ -68,4 +64,13 @@ h3 {
 
 hr {
 	margin : 40px;
+}
+
+.photo {
+	float : left;
+}
+
+.profile {
+	width : 65%;
+	float : right;
 }
