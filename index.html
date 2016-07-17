@@ -2,15 +2,18 @@
 <html lang="en-us">
 	<head>
 		<meta charset="UTF-8">
-		<title>Jie's Personal Website</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Jie's Personal Website</title>		
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100&subset=latin,greek' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<header>
 			<div class="container">
-				<img class="img-cicle" src="img/zj-1.png">
+				<img class="img-circle" src="img/zj-1.png">
 				<h1 class="name">Jie Zhou</h1>
 				<h2 class="des">Web Designer. Programmer. Creative.</h2>
 				<p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
@@ -20,20 +23,103 @@
 		<section class="about-me">			
 			<article class="container">
 				<div class="row">
-					<div class="col2">
-						<h2 class="name">About Me</h2>
+					<div class="col-md-6">
+						<h2 class="title">About Me.</h2>
 						<p class="para">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
 						<br>
 						<br>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<div class="col2">
+					<div class="col-md-6">
 						<img class="img-article" src="img/about_me.jpg">
 					</div>
 				</div>
+			</article>				
+			<article class="more-me">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="row">
+								<div class="col-md-4 img-more-me">
+									<img class="icon" src="img/programmer.png">
+								</div>
+								<div class=col-md-8>
+									<h5 class="subtitle">Programmer</h5>
+									<p class="text-subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="row">
+								<div class="col-md-4 img-more-me">
+									<img class="icon" src="img/camera.png">
+								</div>
+								<div class="col-md-8">
+									<h5 class="subtitle">Photographer</h5>
+									<p class="text-subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="row">
+								<div class="col-md-4 img-more-me">
+									<img class="icon" src="img/coffee.png">
+								</div>
+								<div class="col-md-8">
+									<h5 class="subtitle">Sports</h5>
+									<p class="text-subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</article>			
-		</section>	
+		</section>
+		<section class="skills">
+			<div class="container">
+				<h2 class="title white-text">Skills.</h2>
+				<p class="para white-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<div id="skillsbar" class="row">
+					<div class="col-md-6 separ">
+						<div class="row">
+							<div class="col-sm-2 icon-skills hidden-xs">
+								<img src="img/html5.png">
+							</div>
+							<div class="col-sm-10">
+								<div class="row">
+									<h3 class="white-text">HTML</h3>
+								  <div class="bar-container">
+										<div class="bar red">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 separ">
+					  <div class="row">
+							<div class="col-sm-2 icon-skills hidden-xs">
+								<img src="img/html5.png">
+							</div>
+							<div class="col-sm-10">
+								<div class="row">
+									<h3 class="white-text">CSS</h3>
+									<div class="bar-container">
+										<div class="bar blue">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+	
 	</body>
 </html>
 
