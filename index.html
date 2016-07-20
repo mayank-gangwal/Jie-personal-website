@@ -5,33 +5,37 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Jie's Personal Website</title>		
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100&subset=latin,greek' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
-		<ul class="topnav" id="myTopnav">
-			<li><a class="active" href="#home">Home</a></li>
-			<li><a href=".about-me">About</a></li>
-			<li><a href="#me">Skills</a></li>
-			<li><a href="#me">Education</a></li>
-			<li><a href="#me">Experience</a></li>
-			<li><a href="#me">Contact</a></li>
-			<li class="icon">
-				<a href="javascript:void(0);" onclick="myFunction()">☰</a>
-			</li>
-		</ul>
-		<script>
-			function myFunction() {
-	    var x = document.getElementById("myTopnav");
-	    if (x.className === "topnav") {
-	        x.className += " responsive";
-	    } else {
-	        x.className = "topnav";
-	    }
-			}
-		</script>
+		<div class="top">
+			<ul class="topnav" id="myTopnav">
+				<li><a class="active" href="#home">Home</a></li>
+				<li><a href=".about-me">About</a></li>
+				<li><a href="#me">Skills</a></li>
+				<li><a href="#me">Education</a></li>
+				<li><a href="#me">Experience</a></li>
+				<li><a href="#me">Contact</a></li>
+				<li class="icon">
+					<a href="javascript:void(0);" onclick="myFunction()">☰</a>
+				</li>
+			</ul>
+			<script>
+				function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+				}
+			</script>
+		</div>
 		<header>
 			<div class="container">
 				<img class="img-circle" src="img/zj-1.png">
@@ -253,6 +257,64 @@
 				<br>
 				<h2 class="title white-text">Project Experience.</h2>
 				<p class="para white-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+		  <div class="container experience">
+				<ul class="nav nav-tabs">
+					<li  class="active">
+						<a href="#1" data-toggle="tab">Home</a>
+					</li>
+					<li>
+						<a href="#2" data-toggle="tab">HTML</a>
+					</li>
+					<li>
+						<a href="#3" data-toggle="tab">CSS</a>
+					</li>
+					<li>
+						<a href="#4" data-toggle="tab">About</a>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content">
+				<div class="tab-pane fade active in" id="1">
+					<h3 class="exp-title">Front End Web Developer</h3>
+					<p class="prj-name">Google Inc.</p>
+					<p class="prj-des">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. 
+					<br>
+					Duis aute irure dolor in reprehenderit in voluptate velit.
+					</p>
+					<p class="prj-date">2014-2015</p>
+				</div>
+				<div class="tab-pane fade in" id="2">
+					<h3 class="exp-title">Front End Web Developer</h3>
+					<p class="prj-name">Google Inc.</p>
+					<p class="prj-des">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. 
+					<br>
+					Duis aute irure dolor in reprehenderit in voluptate velit.
+					</p>
+					<p class="prj-date">2014-2015</p>
+				</div>
+				<div class="tab-pane fade in" id="3">
+					<h3 class="exp-title">Front End Web Developer</h3>
+					<p class="prj-name">Google Inc.</p>
+					<p class="prj-des">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. 
+					<br>
+					Duis aute irure dolor in reprehenderit in voluptate velit.
+					</p>
+					<p class="prj-date">2014-2015</p>
+				</div>
+				<div class="tab-pane fade in" id="4">
+					<h3 class="exp-title">Front End Web Developer</h3>
+					<p class="prj-name">Google Inc.</p>
+					<p class="prj-des">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. 
+					<br>
+					Duis aute irure dolor in reprehenderit in voluptate velit.
+					</p>
+					<p class="prj-date">2014-2015</p>
+				</div>
 			</div>
 		</section>
 	</body>
