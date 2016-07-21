@@ -481,3 +481,43 @@ img.img-article {
   font-weight: 300;
   text-transform: uppercase;
 }
+
+.contact {
+  width : 100%;
+  background-color : #EC0856;
+  padding-bottom : 90px;
+}
+
+.contact .row {
+  width : 100%;
+  margin-top :50px;
+  margin-bottom :25px;
+  padding-top : 30px;
+  padding-bottom : 30px;
+}
+
+.center-block{
+  display : block;
+  margin-right : auto;
+  margin-left : auto;
+  text-align : center;
+}
+
+.link {
+  border-radius : 30px;
+  border : 2px solid #fff;
+}
+
+.social {
+  margin-right : 20px;
+  margin-bottom : 20px;
+  display : inline-block;
+  width : 254px;
+  height : 103px;
+  border-radius : 30px;
+}
+
+a.social:hover {
+  background-color : #2D373D;
+  transition: all .5s;
+}
