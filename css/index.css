@@ -229,6 +229,22 @@ img.img-article {
   border-radius : 3px;
 }
 
+.ninety {
+  width : 90%;
+}
+
+.eighty {
+  width : 80%;
+}
+
+.sixty {
+  width : 60%;
+}
+
+.seventy {
+  width : 70%;
+}
+
 .red {
   background : #ec0856;
 }
